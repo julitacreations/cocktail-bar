@@ -90,10 +90,10 @@ p:last-child {
 
 /*General typography & universal styles ----------*/
 
-.bg-featured { background-color: #018ca2;  }
-.bg-dark     { background-color: #24282B;  }
+.bg-featured { background-color: #183039;  }
 
 .light-text { color: white; } 
+.featured-text { color: #183039}
 
 .left   { text-align: left; }
 .center { text-align: center; }
@@ -105,3 +105,15 @@ p:last-child {
 /* Header & Footer Styles -------------*/
 
 /* Images & Background Images ------------ */
+
+.bg-image {
+    background-color:#183039;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.bg-glass {background-image: url('/images/negroni-glass-faded.jpg') }
+.bg-window {background-image: url('/images/negroni-2.jpg') }
+.bg-plant {background-image: url('/images/negroni-4.jpg') }
+.bg-water {background-image: url('/images/water-light.jpg') }
