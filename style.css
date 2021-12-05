@@ -1,0 +1,107 @@
+/*  NOTES
+Headings: Bodoni Moda - 400, 500
+Body: Martel - 200, 300, 400
+
+color-featured: #183039
+*/
+
+* {
+	padding: 0;
+	margin: 0; 
+	box-sizing: border-box;
+}
+
+/* Gridlex reset 
+[class*="col-"], [class*="col_"], [class~="col"]  {padding:0;}
+﻿
+[class*="grid-"], [class*="grid_"], [class~="grid"] {margin:0;} */
+
+
+/*  Temporary Styles----- */
+
+* {
+    padding: 0.5rem;
+    border: 2px solid rgb(200,200,200);
+}
+
+html, 
+body {
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h6,p, a {
+    border: 2px solid rgb(179, 84, 84);
+}
+
+
+/* Reusable utility classes---------*/
+
+/* Padding Utility Classes */ 
+
+.padded { padding: 5%; }
+.padded-sm { padding: 2.5%; }
+.padded-lg { padding: 10%;  }
+
+.padded-05 { padding: 0.5rem; }
+.padded-1 { padding: 1rem; }
+.padded-2 { padding: 2rem; }
+
+.padded-t { padding-top: 5%; }
+.padded-b { padding-bottom: 5%; }
+.padded-l { padding-left: 5%; }
+.padded-r { padding-right: 5%; }
+
+
+.tall-50 { min-height: 50vh; }
+.tall-60 { min-height: 60vh; }
+.tall-70 { min-height: 70vh; }
+.tall-80 { min-height: 80vh; }
+.tall-90 { min-height: 90vh; }
+.tall-100 { min-height: 100vh; }
+
+
+/*---- Typography font styles----*/
+
+/*
+h2, h3, h4, h5, h6 {
+	line-height: 1.1;
+	margin-bottom: 1.2rem;
+}
+
+p {
+	line-height: 1.4; 
+	margin-bottom: 1rem;
+}
+
+h1:last-child, 
+h2:last-child, 
+h3:last-child, 
+h4:last-child, 
+h5:last-child, 
+h6:last-child, 
+p:last-child {
+    margin-bottom: 0;
+} 
+*/
+
+
+
+
+
+/*General typography & universal styles ----------*/
+
+.bg-featured { background-color: #018ca2;  }
+.bg-dark     { background-color: #24282B;  }
+
+.light-text { color: white; } 
+
+.left   { text-align: left; }
+.center { text-align: center; }
+.right  { text-align: right; }
+
+
+
+
+/* Header & Footer Styles -------------*/
+
+/* Images & Background Images ------------ */
